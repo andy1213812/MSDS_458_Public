@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "device": "mps",
+  "raw_rows": 53940,
+  "clean_rows": 53771,
+  "train_rows": 34412,
+  "validation_rows": 8604,
+  "test_rows": 10755,
+  "encoded_input_features": 23,
+  "low_threshold": 1235.0,
+  "high_threshold": 4284.666666666664,
+  "classifier_validation_accuracy": 0.9573454207345421,
+  "classifier_test_accuracy": 0.9542538354253836,
+  "selected_model": "E10_DNN_256_128_64_LOG_DROPOUT",
+  "selected_model_test_metrics": {
+    "MAE": 282.0785728101476,
+    "RMSE": 557.5980291301869,
+    "MAPE": 6.905275417589025,
+    "R2": 0.9800418287054524,
+    "P95_APE": 18.88246096612115,
+    "Within_20_Pct": 95.57415155741515,
+    "MAPE_Goal_Met": false,
+    "Coverage_Goal_Met": true
+  }
+}
